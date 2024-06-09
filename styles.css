@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    margin: 0 0;
+    font-family: Arial, sans-serif; /* Optional: Adds a basic font */
+}
+
+header {
+    background-color: #004051;
+    text-align: center;
+    padding: 2%;
+}
+
+header h1 {
+    color: #34ef6c;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligns items vertically in the center */
+    height: 100vh;
+    flex-direction: column; /* Stacks children vertically */
+    gap: 0px; /* Adjusts space between #about and #discord */
+}
+
+#about {
+    background-color: #738bd7;
+    width: 320px; /* Ensures maximum width */
+    text-align: center; /* Centers text */
+    color: white;
+
+}
+
+#discord {
+    width: 80%; /* Adjusts width to fit the screen better */
+    max-width: 400px; /* Ensures maximum width */
+    text-align: center; /* Centers text */
+}
+
+#discord img {
+    margin: 0x auto;
+    object-fit: fill;
+}
+
+#discord a {
+    width: 100%;
+}
+
+footer {
+    /* Footer styles */
+}
