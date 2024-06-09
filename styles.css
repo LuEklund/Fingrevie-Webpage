@@ -16,24 +16,31 @@ header h1 {
 
 main {
     display: flex;
-    justify-content: center;
     align-items: center; /* Aligns items vertically in the center */
     height: 100vh;
     flex-direction: column; /* Stacks children vertically */
     gap: 0px; /* Adjusts space between #about and #discord */
+    padding: 30px;
 }
 
 #about {
-    background-color: #738bd7;
+    background-color: #004051;
     max-width: 1000px; /* Ensures maximum width */
     text-align: center; /* Centers text */
     color: white;
 
 }
+
 #about-img {
     /* margin: 0x auto;
     object-fit: cont; */
+    transform: scaleY(0.7);
+    transform-origin: top;
     width: 100%;
+    margin-bottom: -20%;
+}
+
+#about-text{
 }
 
 #discord {
@@ -53,4 +60,27 @@ main {
 
 footer {
     /* Footer styles */
+}
+
+.social-media-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Enables Flexbox layout */
+    justify-content: space-around; /* Distributes space evenly between items */
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Adds some padding around the list */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+.social-media-list li {
+    font-size: 18px; /* Sets font size */
+    color: #333; /* Sets text color */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.social-media-list li:hover {
+    color: #007bff; /* Changes link color on hover */
 }
