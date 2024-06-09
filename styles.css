@@ -25,10 +25,15 @@ main {
 
 #about {
     background-color: #738bd7;
-    width: 320px; /* Ensures maximum width */
+    max-width: 1000px; /* Ensures maximum width */
     text-align: center; /* Centers text */
     color: white;
 
+}
+#about-img {
+    /* margin: 0x auto;
+    object-fit: cont; */
+    width: 100%;
 }
 
 #discord {
