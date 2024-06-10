@@ -1,4 +1,5 @@
 body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
     margin: 0 0;
     font-family: Arial, sans-serif; /* Optional: Adds a basic font */
@@ -10,9 +11,24 @@ header {
     padding: 2%;
 }
 
-header h1 {
+#TopTitle
+{
     color: #34ef6c;
+    font-size: 72px;
+    font-weight: bold;
 }
+#TopTitle .img {
+    float: left;
+   
+}
+#TopImage
+{
+    max-width: 240px;
+    
+    min-width: 240px;
+    
+}
+
 
 main {
     display: flex;
@@ -26,7 +42,6 @@ main {
 #about {
     background-color: #004051;
     max-width: 1000px; /* Ensures maximum width */
-    text-align: center; /* Centers text */
     color: white;
 
 }
@@ -34,13 +49,12 @@ main {
 #about-img {
     /* margin: 0x auto;
     object-fit: cont; */
-    transform: scaleY(0.7);
     transform-origin: top;
     width: 100%;
-    margin-bottom: -20%;
 }
 
 #about-text{
+    padding: 10px;
 }
 
 #social-media-container {
