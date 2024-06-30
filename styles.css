@@ -11,6 +11,18 @@ header {
     padding: 2%;
 }
 
+#Top-Div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.borders
+{
+    border: 2px solid black; /* Border */
+    border-radius: 45px; /* Rounded corners */
+}
+
 #TopTitle
 {
     color: #34ef6c;
